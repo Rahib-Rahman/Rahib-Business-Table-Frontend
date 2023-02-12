@@ -3,7 +3,7 @@ import store from "../redux/store/store";
 import {HideLoader, ShowLoader} from "../redux/state-slice/settings-slice";
 import {SetALLProduct, SetTotal} from "../redux/state-slice/product-slice";
 import {ErrorToast} from "../helper/FormHelper";
-const BaseURL="https://rahib-business-table-backend.onrender.com"
+const BaseURL="https://rahib-business-table-backend.onrender.com/api/v1"
 
 
 export async function GetProductList(pageNo, perPage, searchKeyword) {
